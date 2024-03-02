@@ -1,8 +1,7 @@
 export default function Home() {
-  console.log(process.env.MICROCMS_SERVICE_DOMAIN)
   return (
     <main>
-      <p>Hello, world!</p>
+      <p className="bg-slate-50 h-screen w-full">Hello, world!</p>
     </main>
   );
 }
